@@ -2,9 +2,9 @@
 #/* Compile Script for Synopsys                    */
 #/* dc_shell-t -f compile_dc.tcl                   */
 #/*                                                */
-#/* M. Hassan Najafi                               */
+#/*                             */
 #/**************************************************/
-set First_Path "/home/C00505755/Documents/LD_Synopsys"
+set First_Path "/home/abc/Documents/LD_Synopsys"
 
 #/* All verilog files, separated by spaces         */
 
@@ -44,13 +44,13 @@ set compile_enable_register_merging false
 
 #===========================================================
 #14nm Technology 
-#set OSU_FREEPDK "/home/C00505755/Documents/HDC_Synopsys/14nmLibrary/"
+#set OSU_FREEPDK "/home/abc/Documents/HDC_Synopsys/14nmLibrary/"
 
 #32nm Technology 
-#set OSU_FREEPDK "/home/C00505755/Documents/HDC_Synopsys/32nmLibrary/"
+#set OSU_FREEPDK "/home/abc/Documents/HDC_Synopsys/32nmLibrary/"
 
 #45nm Technology 
-set OSU_FREEPDK "/home/C00505755/Documents/HDC_Synopsys/45nmLibrary/FreePDK45/osu_soc/lib/files"
+set OSU_FREEPDK "/home/abc/Documents/HDC_Synopsys/45nmLibrary/FreePDK45/osu_soc/lib/files"
 #===========================================================
 
 set search_path [concat  $search_path $OSU_FREEPDK]
